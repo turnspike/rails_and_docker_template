@@ -16,7 +16,7 @@ RUN apt-get install -y \
                        libssl-dev \
                        libxml2-dev \
                        libxslt1-dev \
-                       libyaml-dev 
+                       libyaml-dev \
                        nodejs \
                        ruby-switch \
                        ruby2.5 \
