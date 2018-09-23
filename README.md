@@ -1,4 +1,4 @@
-# rails_and_docker_template
+# Rails and Docker Template
 
 This is a simple template with docker-compose.yml and Dockerfile to kick start your Ruby on Rails + Docker + docker-compose development environment
 
