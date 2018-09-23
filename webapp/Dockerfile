@@ -18,14 +18,14 @@ RUN apt-get install -y \
                        libxslt1-dev \
                        libyaml-dev \
                        nodejs \
-                       ruby-switch \
+                       #ruby-switch \
                        ruby2.5 \
                        ruby2.5-dev \
                        rubygems \
                        software-properties-common \
                        tzdata \
                        wget 
-RUN ruby-switch --set ruby2.5
+#RUN ruby-switch --set ruby2.5
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN rm -rf /var/lib/gems/2.5.0/cache/*
